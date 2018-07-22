@@ -1,0 +1,4 @@
+name: cosplay-photo-map
+recipe: laravel
+config:
+  webroot: public
