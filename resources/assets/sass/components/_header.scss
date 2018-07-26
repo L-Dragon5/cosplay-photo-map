@@ -1,0 +1,22 @@
+.header {
+	background-color: #fff;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+	
+	&__title {
+		font-weight: bold;
+		font-size: 2rem;
+		color: black;
+		
+		&--mobile {
+			color: white;
+			font-size: 1.4rem;
+			margin-bottom: 1.5rem;
+		}
+	}
+	
+	&__filter-button {
+		color: white;
+	}
+}

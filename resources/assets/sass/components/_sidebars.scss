@@ -1,0 +1,16 @@
+.filters {
+	&__canvas {
+		background: #fff;
+		color: black;
+	}
+	
+	&__close {
+		color: black !important;
+	}
+
+	&__title {
+		font-size: 1.6rem;
+		margin-bottom: 2rem;
+		color: black;
+	}
+}

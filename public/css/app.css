@@ -15489,3 +15489,28 @@ iframe.uk-cover {
   color: black;
 }
 
+.header__title--mobile {
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.header__filter-button {
+  color: white;
+}
+
+.filters__canvas {
+  background: #fff;
+  color: black;
+}
+
+.filters__close {
+  color: black !important;
+}
+
+.filters__title {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+

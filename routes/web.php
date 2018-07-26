@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', 'Web\AppController@getApp')
-		->middleware('auth');
+Route::get('/', 'Web\AppController@getApp');
 
 Route::get('post/{slug}', function($slug) {
 	$post = App\Post::where('slug', '=', $slug)->firstOrFail();
