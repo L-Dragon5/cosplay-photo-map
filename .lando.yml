@@ -2,7 +2,3 @@ name: cosplay-photo-map
 recipe: laravel
 config:
   webroot: public
-events:
-  post-start:
-    - "cd $LANDO_MOUNT && composer install"
-    - "cd $LANDO_MOUNT && npm install"
