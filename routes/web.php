@@ -11,14 +11,16 @@
 |
 */
 
+// App Controller
 Route::get('/', 'Web\AppController@getApp');
 
-Route::get('post/{slug}', function($slug) {
-	$post = App\Post::where('slug', '=', $slug)->firstOrFail();
-	return view('post', compact('post'));
-});
+// Location Controller
+Route::get('/locations/', 'Web\LocationController@getAllLocations');
+Route::get('/locations/{id}', 'Web\LocationController@getLocation');
 
 
+
+// Voyager Controller
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

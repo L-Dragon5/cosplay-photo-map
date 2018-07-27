@@ -4,7 +4,7 @@
 	</div>
 	
 	<div class="uk-navbar-center uk-visible@s">
-		<a href="/" class="header__title uk-navbar-item uk-logo">{{ setting('site.title') }}</a>
+		<span class="header__title uk-navbar-item">{{ setting('site.title') }}</span>
 	</div>
 	
 	<div class="uk-navbar-right">

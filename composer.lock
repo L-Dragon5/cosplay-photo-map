@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5870971e321becb57c66900957ae8600",
+    "content-hash": "2e08736460217edf68430d53d87262fc",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1346,16 +1346,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.28",
+            "version": "v5.6.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f"
+                "reference": "acc6b5c54ab196d3358f60acc5f55d9ebaaccc02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
-                "reference": "40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/acc6b5c54ab196d3358f60acc5f55d9ebaaccc02",
+                "reference": "acc6b5c54ab196d3358f60acc5f55d9ebaaccc02",
                 "shasum": ""
             },
             "require": {
@@ -1481,7 +1481,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-07-17T14:15:36+00:00"
+            "time": "2018-07-26T16:01:26+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3437,57 +3437,6 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2017-11-27T11:13:29+00:00"
-        },
-        {
-            "name": "tqt/laravel-uikit",
-            "version": "0.13.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twoquethree/laravel-uikit.git",
-                "reference": "16c67153ec43c9566acf25812d64099d6afb63e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twoquethree/laravel-uikit/zipball/16c67153ec43c9566acf25812d64099d6afb63e0",
-                "reference": "16c67153ec43c9566acf25812d64099d6afb63e0",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^5.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "TQT\\Presets\\UIkit\\UIkitPresetServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "TQT\\Presets\\UIkit\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "César A. Ramírez",
-                    "email": "cesar.ramirez.sv@gmail.com"
-                }
-            ],
-            "description": "Laravel 5.5/5.6 frontend preset for UIkit 3",
-            "keywords": [
-                "laravel",
-                "preset",
-                "uikit"
-            ],
-            "time": "2018-07-13T21:21:30+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

@@ -2,6 +2,7 @@ window._ = require("lodash");
 
 window.UIkit = require("uikit");
 window.Icons = require("uikit/dist/js/uikit-icons");
+window.$ = window.jQuery = require('jquery');
 
 UIkit.use(window.Icons);
 /**

@@ -2,6 +2,10 @@
 	&__canvas {
 		background: #fff;
 		color: black;
+		
+		@media only screen and (min-width: $breakpoint-small) {
+			width: 500px;
+		}
 	}
 	
 	&__close {
