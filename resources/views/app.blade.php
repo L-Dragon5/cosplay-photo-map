@@ -17,6 +17,10 @@
 	@include('components.nav')
 </div>
 
+<!-- Modals -->
+@include('components.about')
+@include('components.contact')
+@include('components.faq')
 
 @include('includes.foot')
 </body>
