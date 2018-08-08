@@ -9,6 +9,11 @@
 			<li class="uk-parent"><a href="#faq" uk-toggle>FAQ</a></li>
 				<li class="uk-nav-divider"></li>
 			<li class="uk-parent"><a href="#contact-us" uk-toggle>Contact Us</a></li>
+				<li class="uk-nav-divider"></li>
+				
+			<br><br>
+			
+			<li class="uk-parent"><a href="#submit-new" uk-toggle>Submit New Location</a></li>
 		</ul>
 	</div>
 </div>

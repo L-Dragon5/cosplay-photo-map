@@ -18,9 +18,11 @@
 </div>
 
 <!-- Modals -->
-@include('components.about')
-@include('components.contact')
-@include('components.faq')
+@include('modals.about')
+@include('modals.contact')
+@include('modals.faq')
+@include('modals.new')
+@include('modals.location-info')
 
 @include('includes.foot')
 </body>
