@@ -1,0 +1,25 @@
+Locations
+- id
+- name
+- description
+- address
+- lat
+- lng
+- timestamps
+
+- is_public (0 = no, 1 = yes)
+- state_id (https://github.com/DougSisk/laravel-country-state)
+
+Locations_Photos
+- id
+- location_id
+- filename
+- is_photoshoot
+
+Tags
+- id
+- name
+
+Locations_Tags
+- location_id
+- tag_id
