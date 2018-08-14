@@ -18,6 +18,9 @@ Route::get('/', 'Web\AppController@getApp');
 Route::get('/locations/', 'Web\LocationController@getAllLocations');
 Route::get('/locations/{id}', 'Web\LocationController@getLocation');
 
+// LocationsPhoto Controller
+Route::get('/locations-photo/{id}/{photoshoot}', 'Web\LocationsPhotoController@getPhotosByLocation');
+
 
 
 // Voyager Controller

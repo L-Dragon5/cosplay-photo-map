@@ -14703,20 +14703,13 @@ iframe.uk-cover {
     bottom: 30px;
     left: 30px;
     max-width: calc(100vw - 40%);
-    max-height: 500px;
+    max-height: 600px;
   }
 }
 
 @media only screen and (min-width: 960px) {
   .location-info {
     max-width: calc(100vw - 60%);
-    max-height: 600px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .location-info {
-    max-width: calc(100vw - 70%);
     max-height: 700px;
   }
 }
@@ -14740,12 +14733,18 @@ iframe.uk-cover {
   font-size: 14px;
 }
 
-.location-info__body__address {
-  margin-top: 20px;
-}
-
 .location-info__body__description {
   color: black;
+}
+
+.location-info__body__is-public {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+}
+
+.location-info__body__tags {
+  display: inline-block;
 }
 
 .location-info--closed {
@@ -14756,5 +14755,13 @@ iframe.uk-cover {
 .location-info--open {
   opacity: 1;
   height: initial;
+}
+
+.location-public {
+  background-color: #1e87f0;
+}
+
+.location-private {
+  background-color: #f01e1e;
 }
 

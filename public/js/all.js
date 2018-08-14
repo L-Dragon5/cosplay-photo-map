@@ -65,14 +65,42 @@ function openInfo(data) {
 	i.addClass('location-info--open');
 	
 	// Populate modal
-	if(data.name !== undefined)
+	if(data.name !== undefined) {
 		$('.location-info__body__name').text(data.name);
-	if(data.updated_at !== undefined)
+	}
+	
+	if(data.updated_at !== undefined) {
 		$('.location-info__body__updated').text('Last updated: ' + formatTimestamp(data.updated_at));
-	if(data.address !== undefined)
-		$('.location-info__body__address').text(data.address);
-	if(data.description !== undefined)
+	}
+	
+	if(data.address !== undefined) {
+		$('.location-info__body__address').text('Address: ' + data.address);
+	}
+	
+	if(data.is_public == 0) {
+		$('.location-info__body__is-public').text('Private').addClass('location-private');
+	} else {
+		$('.location-info__body__is-public').text('Public').addClass('location-public');
+	}
+	
+	if(data.tags !== undefined) {
+		$('.location-info__body__tags').text(data.tags);
+	} else {
+		$('.location-info__body__tags').html('<i>No tags found</i>');
+	}
+	
+	if(data.description !== undefined) {
 		$('.location-info__body__description').text(data.description);
+	}
+	
+	// Populate Photos
+	$.ajax({
+		type: 'GET',
+		url: '/locations-photo/' + data.id + '/0',
+		success: function(response) {
+			$('.location-info__body__photos--location').html(response);
+		}
+	});
 }
 
 function closeInfo() {

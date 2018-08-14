@@ -16,16 +16,11 @@
 		bottom: 30px;
 		left: 30px;
 		max-width: calc(100vw - 40%);
-		max-height: 500px;
+		max-height: 600px;
 	}
 	
 	@media only screen and (min-width: $breakpoint-medium) {
 		max-width: calc(100vw - 60%);
-		max-height: 600px;
-	}
-	
-	@media only screen and (min-width: $breakpoint-large) {
-		max-width: calc(100vw - 70%);
 		max-height: 700px;
 	}
 	
@@ -46,12 +41,18 @@
 			font-size: 14px;
 		}
 		
-		&__address {
-			margin-top: 20px;
-		}
-		
 		&__description {
 			color: black;
+		}
+		
+		&__is-public {
+			display: inline-block;
+			color: white;
+			padding: 10px;
+		}
+		
+		&__tags {
+			display: inline-block;
 		}
 	}
 	
@@ -64,4 +65,12 @@
 		opacity: 1;
 		height: initial;
 	}
+}
+
+.location-public {
+	background-color: #1e87f0;
+}
+
+.location-private {
+	background-color: #f01e1e;
 }

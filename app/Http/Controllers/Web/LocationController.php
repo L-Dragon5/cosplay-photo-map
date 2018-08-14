@@ -9,10 +9,13 @@ class LocationController extends Controller
 {
     public function getAllLocations() {
 		$locations = Location::all();
+		
 		return response()->json($locations, 200);
 	}
 	
 	public function getLocation($id) {
+		$location = Location::find($id);
 		
+		return response()->json($location, 200);
 	}
 }
